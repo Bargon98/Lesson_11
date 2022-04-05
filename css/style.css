@@ -1,0 +1,386 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular,500,700,900);
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.header {
+}
+
+.header__explanation-1{
+	width: 100px;
+	color: rgb(236, 236, 236);
+	font-size: 11px;
+	padding: 10px;
+	position: absolute;
+}
+
+.header__explanation-2{
+	width: 500px;
+	background: rgb(138, 64, 192);
+	color: white;
+	font-size: 18px;
+	padding: 10px;
+}
+
+.header__body{
+	
+	font-family: 'Roboto';
+	font-weight: 700;	
+	font-size: 12px;
+	line-height: 1.8;
+	background: url(../img/header_background.webp) 0 0 / cover no-repeat;
+}
+
+.header__content{
+	margin: 0 auto;
+	max-width: 1020px;
+	padding-top: 25px;
+}
+
+.header__top {
+	position: relative;
+	max-width: 1020px;
+	margin: 0 auto;
+	margin-bottom: 125px;
+}
+
+.header__info{
+	margin-bottom: 30px;
+}
+
+.info-header {
+	color: white;
+}
+
+.info-header__logo {
+	background: url(../img/vector.svg) 0 0 / 40px no-repeat, url(../img/logo.svg) 50px 3px / 125px 40px no-repeat;
+	max-width: 175px;
+	min-height: 40px;
+}
+
+.info-header__time {
+	position: absolute;
+	top: 0px;
+	left: 410px;
+	max-width: 190px;
+	background: url(../img/info-header_time.svg) 0 3px / 20px no-repeat;
+	padding-left: 30px;
+}
+
+.info-header__time-uppercase {
+	text-transform: uppercase;
+}
+
+.info-header__call {
+	position: absolute;
+	top: 0px;
+	left: 650px;
+	max-width: 120px;
+	background: url(../img/info-header_phone.svg) 0 5px / 20px no-repeat;
+	padding-left: 30px;
+	font-weight: 500;
+}
+
+.info-header__call-uppercase {
+	text-transform: uppercase;
+}
+
+.info-header__button {
+	text-transform: uppercase;
+	color: white;
+	display: inline-block;
+	background: #F2726F;
+	border-radius: 8px;
+	min-height: 40px;
+	min-width: 210px;
+	text-align: center;
+	padding-top: 10px;
+	position: absolute;
+	left: 810px;
+	top: 0;
+}
+
+.button {
+
+}
+
+.header__nav {
+	max-width: 1020px;
+	height: 60px;
+	background-color: #fff;
+	border-radius: 10px;
+	position: relative;
+	font-size: 14px;
+	line-height: 1.6;
+	letter-spacing: 0.15px;
+	font-weight: 700;
+}
+
+.nav-header {
+
+}
+
+.nav-header__item{
+	position: absolute;
+	top: 20px;
+	cursor: pointer;
+}
+
+.nav-header div:last-child{
+	background: url(../img/nav-header__ellipse.svg) 0 3.5px / 15px no-repeat;
+	left: 965px;
+	top: 13px;
+	padding-left: 4px;
+	padding-bottom: 50px;
+	color: white;
+	width: 15px;
+	height: 15px;
+}
+
+.nav-header :nth-child(8){
+	background: url(../img/nav-header_basket.svg) 0 0 no-repeat;
+	width: 25px;
+	height: 20px;
+	left: 950px;
+}
+
+.nav-header :nth-child(7){
+	background: url(../img/nav-header_search.svg) 0 0 no-repeat;
+	width: 20px;
+	height: 20px;
+	left: 905px;
+}
+
+.nav-header :nth-child(1){
+	left: 40px;
+}
+
+.nav-header :nth-child(2) {
+	left: 155px;
+}
+
+.nav-header :nth-child(3) {
+	left: 255px;
+}
+
+.nav-header :nth-child(4) {
+	left: 360px;
+}
+
+.nav-header :nth-child(5) {
+	left: 455px;
+}
+
+.nav-header :nth-child(6) {
+	left: 550px;
+}
+
+.header__under-top{
+	margin: 0 auto;
+	color: white;
+	padding-bottom: 350px;
+}
+
+.header__main-text{
+	font-weight: 900;
+	font-size: 56px;
+	line-height: 1;
+	max-width: 583px;
+	margin-bottom: 40px;
+}
+
+.header__button {
+	text-transform: uppercase;
+	display: inline-block;
+	background: #F2726F;
+	border-radius: 8px;
+	min-height: 48px;
+	min-width: 210px;
+	text-align: center;
+	padding-top: 14px;
+	box-shadow: rgba(0, 0, 0, 0.252) 10px 10px 20px, rgba(0, 0, 0, 0.252) -10px 10px 20px;
+}
+
+.main{
+	
+}
+
+.main__body{
+	padding-bottom: 150px;
+}
+
+.main__content{
+	max-width: 1020px;
+	margin: 0 auto;
+	background: #5D62B5;
+	border-radius: 40px;
+	margin-top: -80px;
+	position: relative;
+	font-family: 'Roboto';
+}
+
+.main__content::before{
+	content: "";
+	background: url(../img/who-we-are_style-svg.svg) 0 0 no-repeat;
+	width: 201px;
+	height: 317px;
+	position: absolute;
+	top: -110px;
+	right: -80px;
+}
+
+.main__content::after{
+	content: "";
+	background: url(../img/who-we-are_spot.svg) 0 0 no-repeat;
+	width: 600px;
+	height: 480px;
+	position: absolute;
+	z-index: 0;
+	bottom: -80px;
+	left: 50px;
+}
+
+.who-we-are {
+	padding: 0 85px 0 85px;
+	margin: 0 auto;
+	color: white;
+}
+
+.who-we-are__heading {
+	padding-top: 100px;
+	margin-bottom: 35px;
+	max-width: 565px;
+}
+
+.heading {
+
+}
+
+.heading__title {
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 2.5px;
+	line-height: 2;
+	margin-bottom: 35px;
+	position: relative;
+	padding-left: 35px;
+}
+
+.heading__title::before{
+	content: "";
+	position: absolute;
+	background: url(../img/who-we-are_icon.svg) 0 0 no-repeat;
+	width: 20px;
+	height: 20px;
+	top: -2px;
+	left: 0px;
+}
+
+.heading__sub-title {
+	font-size: 36px;
+	line-height: 1.1;
+	font-weight: 900;
+}
+
+.who-we-are__text {
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.15px;
+	max-width: 846px;
+}
+
+.who-we-are__image{
+	
+}
+
+.who-we-are__img{
+	border-radius: 40px;
+	position: relative;
+	z-index: 2;
+	top: 70px;
+	width: 100%;
+	box-shadow: rgba(0, 0, 0, 0.252) 10px 10px 20px, rgba(0, 0, 0, 0.252) -10px 10px 20px;
+}
+
+
+/*======================ПОЛИГОНчик========================*/
+
+
+.main__polygon {
+
+}
+
+.polygon {
+	position: relative;
+	width: 100px;
+	margin: 0 auto;
+	font-size: 16px;
+	font-weight: 700;
+	text-align: center;
+	padding-left: 20px;
+}
+
+.polygon__block {
+	
+}
+
+.polygon :nth-child(n){
+	padding: 10px;
+	
+}
+
+.polygon::before{
+	content: "";
+	background: rgb(255, 0, 0);
+	width: 10px;
+	height: 150px;
+	border-radius: 50%;
+	display: inline-block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.polygon::after{
+	content: "";
+	background: rgb(255, 0, 0);
+	width: 10px;
+	height: 150px;
+	border-radius: 50%;
+	display: inline-block;
+	position: absolute;
+	top: 0px;
+	right: -20px;
+}
+
+.polygon :nth-child(1){
+	background: #5D62B5;
+	position: sticky;
+}	
+
+.polygon :nth-child(2){
+	background: #b5fd00;
+	position: absolute;
+	left: 20px;
+	z-index: 3;
+}
+
+.polygon :nth-child(3){
+	background: #ff4d00;
+	position: relative;
+}
+
+.polygon :nth-child(4){
+	background: #00ff33;
+	position: fixed;
+}
+
+.polygon :nth-child(5){
+	background: #ff00e6;
+}
+
+.polygon :nth-child(6){
+	background: #0080ff;
+}
